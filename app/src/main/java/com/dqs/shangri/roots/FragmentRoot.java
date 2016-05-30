@@ -20,11 +20,11 @@ public abstract class FragmentRoot extends Fragment {
         log = logger;
     }
 
-    @Override
+    /*@Override
     public void onAttach(Activity activity) {
         log.info("Fragment Life --> onAttach");
         super.onAttach(activity);
-    }
+    }*/
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
