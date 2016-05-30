@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dqs.shangri.animation.MainActivity">
+
+    <Button
+        android:id="@+id/right_translate_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="右移"/>
+    <Button
+        android:id="@+id/scale_bt"
+        android:layout_below="@id/right_translate_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="缩放"/>
+    <Button
+        android:id="@+id/alph_bt"
+        android:layout_below="@id/scale_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="渐变"/>
+    <Button
+        android:id="@+id/rotate_bt"
+        android:layout_below="@id/alph_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="旋转"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/icon_payment_success"
+        />
+</RelativeLayout>
